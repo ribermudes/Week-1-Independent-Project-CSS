@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+header {
+ background-color: #997a8d;
+ height: 200px;
+ font-family: 'Cinzel Decorative', cursive;
+ text-align: center;
+ width: 100%;
+ font-size: 25px;
+ margin: 0px;
+ /*position: absolute;*/
+ border-bottom:solid 20px #796878;
+ padding-top: 20px;
+
+}
+
+ h1 {
+   font-size: 50px;
+   margin: 0px;
+   padding-bottom: 20px;
+ }
+
+h2  {
+  text-align: center;
+}
+
+body {
+  background-color: #b39eb5;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+img {
+  height: 700px;
+  width: 400px;
+  /*position: absolute;*/
+  padding-top: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+p.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}
+.other-items img {
+   height: 300px;
+   width: 200px;
+   float: left;
+   padding: 20px;
+ }
+ table {
+   border-collapse: collapse;
+ }
+
+th {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+button {
+  height: 45px;
+  background-color: black;
+  color: white;
+  font-family: 'Cinzel Decorative', cursive;
+  border: none;
+  border-radius: 5px;
+  
+}

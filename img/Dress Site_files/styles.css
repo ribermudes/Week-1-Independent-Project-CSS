@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+header {
+ background-color: #997a8d;
+ height: 200px;
+ font-family: 'Cinzel Decorative', cursive;
+ text-align: center;
+ width: 100%;
+ font-size: 25px;
+ margin: 0px;
+ /*position: absolute;*/
+ border-bottom:solid 20px #796878;
+
+}
+
+ h1 {
+   font-size: 50px;
+ }
+
+body {
+  background-color: #b39eb5;
+}
+
+img {
+  height: 600px;
+  width: 300px;
+  /*position: absolute;*/
+  padding-top: 25px;
+  align-items: center;
+}
