@@ -15,15 +15,38 @@ header {
  font-size: 25px;
  margin: 0px;
  /*position: absolute;*/
- border-bottom:solid 20px #796878;
  padding-top: 20px;
 
+}
+
+#navbar {
+background-color: #796878;
+height: 25px;
+border-bottom:solid 20px #796878;
+-webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+-moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+#navbar ul {
+margin:0;
+padding:0;
+list-style:none;
+}
+
+#navbar li {
+display:inline;
+margin:0;
+padding:25px;
+color: black;
+font-weight: bold;
 }
 
  h1 {
    font-size: 60px;
    margin: 0px;
    padding-bottom: 30px;
+   /*float: left;*/
  }
 
 h2  {
@@ -43,6 +66,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto
+
 }
 
 p.blocktext {
@@ -54,8 +78,10 @@ p.blocktext {
    height: 300px;
    width: 200px;
    float: left;
-   padding: 20px;
+   padding: 35px;
+
  }
+
  table {
    border-collapse: collapse;
    background-color: #aa98a9;
@@ -78,4 +104,63 @@ button {
   font-family: 'Cinzel Decorative', cursive;
   border: none;
   border-radius: 5px;
+  margin-left: 45%;
+  margin-right: 55%;
+}
+
+.options:hover {
+  color: white;
+}
+
+label {
+  position: absolute;
+  color: white;
+  left: 450px;
+  top:440px;
+  font-size: 30px;
+}
+
+.ribbon {
+ font-size: 20px !important;
+ width: 50%;
+ position: relative;
+ background: #ba89b6;
+ color: black;
+ text-align: center;
+ padding: 1em 2em;
+ margin: 2em auto 3em;
+}
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1em;
+ border: 1.5em solid #986794;
+ z-index: -1;
+}
+.ribbon:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -2em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #804f7c transparent transparent transparent;
+ bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
 }
